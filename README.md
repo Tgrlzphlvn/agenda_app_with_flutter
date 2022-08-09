@@ -19,7 +19,8 @@ Ve bir de hatırlatıcı sayfamız bulunmakta.
 Bu ikisinin haricinde ufak çaplı bir gelir-gider tablosu
 ekleyerek basit bir cüzdan uygulaması işlevi kazandırdım.
 
-Bu verilerin hepsini Hive kullanarak sakladım.
+Bu verilerin hepsini Hive kullanarak sakladım. 
+Kullandığım paketleri pubspec.yaml dosyasında görebilirsiniz.
 
 <img src="./assets/foto4.png" width=300 height=600>
 <img src="./assets/foto5.png" width=300 height=600>
