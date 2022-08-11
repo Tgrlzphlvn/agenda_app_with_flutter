@@ -50,11 +50,9 @@ class ReminderViewModel extends ChangeNotifier {
 
   Future<void> addReminder(Reminder model) async {
     await reminderCache.addModel(model);
-    notifyListeners();
   }
 
   Future<void> deleteReminder(Reminder model) async {
     await reminderCache.deleteModel(model);
-    notifyListeners();
   }
 }
