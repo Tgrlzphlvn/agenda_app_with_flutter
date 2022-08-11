@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:agenda_app_with_flutter/feature/model/doviz.dart';
 import 'package:agenda_app_with_flutter/feature/service/service_protocol.dart';
 
-class EconomicValuesService extends ServiceProtocol {
+class EconomicValuesService extends ServiceProtocol<Doviz> {
   EconomicValuesService(super.dio);
 
   @override
