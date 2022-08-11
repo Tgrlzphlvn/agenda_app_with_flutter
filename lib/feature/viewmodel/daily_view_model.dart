@@ -18,11 +18,9 @@ class DailyViewModel extends ChangeNotifier {
 
   Future<void> delete(Daily daily) async {
     await dailyCache.deleteModel(daily);
-    notifyListeners();
   }
 
   Future<void> add(Daily daily) async {
     await dailyCache.addModel(daily);
-    notifyListeners();
   }
 }
