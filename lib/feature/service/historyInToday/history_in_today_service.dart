@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:agenda_app_with_flutter/feature/model/historyInToday.dart';
 import 'package:agenda_app_with_flutter/feature/service/service_protocol.dart';
 
-class HistoryInTodayService extends ServiceProtocol {
+class HistoryInTodayService extends ServiceProtocol<Tarihtebugun> {
   HistoryInTodayService(super.dio);
 
   @override
