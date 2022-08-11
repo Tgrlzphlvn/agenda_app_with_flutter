@@ -37,12 +37,10 @@ class IncomeExpenseViewModel extends ChangeNotifier {
 
   Future<void> deleteIncome(Income income) async {
     await incomeCache.deleteModel(income);
-    notifyListeners();
   }
 
   Future<void> addIncome(Income income) async {
     await incomeCache.addModel(income);
-    notifyListeners();
   }
 
   // Expense Methods
@@ -55,12 +53,10 @@ class IncomeExpenseViewModel extends ChangeNotifier {
 
   Future<void> deleteExpense(Income expense) async {
     await expenseCache.deleteModel(expense);
-    notifyListeners();
   }
 
   Future<void> addExpense(Income expense) async {
     await expenseCache.addModel(expense);
-    notifyListeners();
   }
 
   // Balance Methods
